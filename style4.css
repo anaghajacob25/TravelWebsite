@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"
+    ;
+}
+
+body {
+    background-image: url('https://img.freepik.com/free-photo/girl-shoot-photo-sea_1150-12645.jpg?t=st=1712033275~exp=1712036875~hmac=7374780993a8aed77fce9d60f99ea34ffe5c494a545fc75326e9deb04e36ccbe&w=996');
+    background-size: cover;
+   
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: -80px;
+}
+
+
+
+/* logo */
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.head img{
+    height: 60px;
+    width: auto;
+}
+
+
+
+
+/* forms */
+
+
+.forms{
+    position: absolute;
+    
+    border: 1px solid lightgrey; 
+    background-color:rgba(255, 255, 255, 0.563);
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+    height: auto;
+    
+    
+}
+
+.email{
+    width: 274px;
+    height: 31px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid transparent; 
+}
+
+form input{
+    background-color: rgba(102, 160, 178, 0.251);
+}
+
+.pswd span{
+    font-size: 12px;
+    margin-left: 113px;
+    color: #2f81f7;
+}
+
+.btn{
+    width: 274px;
+    height: 31px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.248);
+    background-color: rgba(7, 77, 86, 0.79);
+   
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: 550;
+}
+
+
+/* sign-in */
+
+.sign-in{
+    background-color:rgba(255, 255, 255, 0.563);
+    border: 1px solid transparent;
+    position: absolute;
+    margin-top: 450px;
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+}
+
+.sign-in h3{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 70px;
+    margin-bottom: 3px;
+}
+
+.sign-in p{
+    margin-left: 30px;
+    font-weight: 450;
+}
+
+.sign-in span{
+    color: #000000;
+    font-size: 14px;
+}
+

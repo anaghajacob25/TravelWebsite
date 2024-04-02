@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourly</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="images/logo1.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- animation links -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Kalnia:wght@300;400&family=Merriweather:ital@1&family=Nunito:wght@200&family=Open+Sans:wght@300&family=Playfair+Display:ital@1&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="container">
+
+        <!-- home -->
+
+        <section id="home">
+
+        <div class="navbar">
+              <img src="images/logo.png" alt="logo image">
+              <h2 class="logoname">Tourly</h2>
+
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destination">Destination</a></li>
+                <li><a href="#package">Packages</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+
+            <form>
+                <div class="search">
+                <input type="text" placeholder="Search..." id="sicon">
+                <i class="fa-solid fa-magnifying-glass"  id="search"></i>
+            </div>
+
+            <div class="login">
+                <a href="login.html"><input type="text"  placeholder="Log in" id="uicon"></a>
+                 <i class="fa-solid fa-circle-user" id="user"></i>
+                </div>
+            </form>
+
+        </div>
+
+        <div class="text">
+            <h1 class="text1">Unlock Adventure: Your Key  to <br> Unforgettable Experiences.</h1>
+
+        <div class="h-button">
+            <button id="btn1">Explore Now</button>
+            <button id="btn2">Book Now</button>
+        </div>
+
+        </div>
+
+    </section>
+
+
+     <!-- enquire  -->
+
+     <div id="about"data-aos="fade-up" data-aos-duration="1500">
+
+     <div class="all-content">
+    
+    <div class="inquire">
+
+        <form>
+
+            <div class="location">
+            <label for="sd" >Search your Destination</label>
+            <input type="text" id="sd" placeholder="  Dream Destination">
+            <i class="fa-solid fa-location-dot"></i>
+        </div>
+            
+        <div>
+            <label for="date">Select your Date</label>
+            <input type="date"  id="date">
+        </div>
+
+        <div>
+            <label for="np">Number of people</label>
+            <input type="number" id="np" placeholder="  Number of people">
+        </div>
+
+        <div class="price">
+            <label for="price">Max Price</label>
+            <input type="text"  id="price" class="max-price-input" placeholder="  $250">
+        </div>
+
+        <button>Search</button>
+
+      </form>
+ 
+    </div>
+
+</div>
+</div>
+
+<!-- about us -->
+
+<section id="about-us">
+
+  <div class="abt-content">
+
+    <div class="abt1">
+  <h2><span>"</span>The biggest adventure you can take is to live the life of your dreams</h2>
+  <h3>Join Our Journey Now</h3>
+  <p>Welcome to Tourly, where every journey is an invitation to explore, dream, and create lasting memories. At the heart of our mission is a commitment to empower your wanderlust with curated travel experiences that transcend the ordinary. Our dedicated team of travel enthusiasts is here to guide you, offering expert advice and personalized itineraries tailored to your unique preferences.    
+    Join us on this extraordinary adventure, where each trip is an opportunity to embrace the journey, connect with the world, and discover the beauty of diverse cultures. At Tourly, we invite you to make your mark on the map and let your wanderlust guide you through a world of endless possibilities.</p>
+   <button>Find your adventure here</button>
+  </div>
+
+<div class="abt2">
+  <img src="images/abtt.jpg" alt="" height="400px">
+</div>
+  
+</div>
+
+</section>
+
+
+<!-- destination -->
+
+
+   <div id="destination">
+
+    <div class="title">
+         <h4>Explore to</h4>
+         <h1>Dream Destination</h1>
+    </div>
+
+    <div id="about"data-aos="fade-up" data-aos-duration="1500">
+<div class="place">
+
+  <div class="gallery">
+    <h4>Paris</h4>
+    <img src="images/p1.jpg" alt="paris">
+    <div class="overlay">
+      <p>Amount: $250/per person</p>
+      <p>Rating: 4.0 <i class="fa-solid fa-star checked"></i></p>
+      <a href="" class="detail-button">Details</a>
+
+    </div>
+  </div>
+
+  <div class="gallery">
+    <h4>London</h4>
+    <img src="images/p2.avif" alt="london">
+    <div class="overlay">
+      <p>Amount: $280/per person</p>
+      <p>Rating: 4.2 <i class="fa-solid fa-star checked"></i></p>
+      <a href="london.html" class="detail-button">Details</a>
+
+    </div>
+  </div>
+
+  <div class="gallery">
+    <h4>Kerala</h4>
+    <img src="images/p6.jpg" alt="kerala">
+    <div class="overlay">
+      <p>Amount: $120/per person</p>
+      <p>Rating: 5.0 <i class="fa-solid fa-star checked"></i></p>
+      <button class="detail-button">Details</button>
+    </div>
+  </div>
+
+  <div class="gallery">
+    <h4>Singapore</h4>
+    <img src="images/p3.jpg" alt="singapore">
+    <div class="overlay">
+      <p>Amount: $90/per person</p>
+      <p>Rating: 4.5 <i class="fa-solid fa-star checked"></i></p>
+      <button class="detail-button">Details</button>
+    </div>
+  </div>
+
+  <div class="gallery">
+    <h4>Switzerland</h4>
+    <img src="images/p4.jpg" alt="switzerland">
+    <div class="overlay">
+      <p>Amount: $300/per person</p>
+      <p>Rating: 5.0 <i class="fa-solid fa-star checked"></i></p>
+      <button class="detail-button">Details</button>
+    </div>
+  </div>
+
+  <div class="gallery row2">
+    <h4>Manali</h4>
+    <img src="images/p5.jpg" alt="Manali">
+    <div class="overlay">
+      <p>Amount: $150/per person</p>
+      <p>Rating: 4.8 <i class="fa-solid fa-star checked"></i></p>
+      <button class="detail-button">Details</button>
+    </div>
+  </div>
+
+ 
+
+  <div class="gallery">
+    <h4>Maldives</h4>
+    <img src="images/p7.jpg" alt="Maldives">
+    <div class="overlay">
+      <p>Amount: $120/per person </p>
+      <p>Rating: 4.3<i class="fa-solid fa-star checked"></i></p>
+      <button class="detail-button">Details</button>
+    </div>
+  </div>
+
+  <div class="gallery">
+    <h4>Himalayas</h4>
+    <img src="images/p8.jpg" alt="Himalayas">
+    <div class="overlay">
+      <p>Amount: $160/per person</p>
+      <p>Rating: 5.0 <i class="fa-solid fa-star checked"></i></p>
+      <a href="london.html" class="detail-button">Details</a>
+    </div>
+  </div>
+
+   </div>
+</div>
+</div>
+
+<!-- services -->
+
+<section id="content">
+
+<div class="services">
+
+  <div class="service">
+
+    <div class="icon">
+
+     <img src="images/group.png" alt="icon 1">
+     <h2>01</h2>
+
+    </div>
+
+    <h3>500 + Our Local Guides</h3>
+    <p>Explore with confidence! Benefit from the expertise  of our 500+ local guides, ensuring your travels are unforgettable and enriched with insider insights.</p>
+  </div>
+
+  <div class="service">
+
+    <div class="icon">
+
+      <img src="images/verified_10416096.png" alt="icon 1" >
+      <h2>02</h2>
+      
+     </div>
+
+    <h3>100% Trusted Agency</h3>
+    <p>Travel with peace of mind. Our 100% trusted agency ensures seamless journeys, leaving you free to savor every moment of your adventure.</p>
+  </div>
+  <div class="service">
+
+    <div class="icon">
+
+      <img src="images/love_7006281.png" alt="icon 1">
+      <h2>03</h2>
+      
+     </div>
+
+    <h3>10 + Years of Experience</h3>
+    <p>10+ years of travel expertise. Your journey, our legacy. Explore with the confidence that comes from a decade of crafting exceptional travel experiences.</p>
+  </div>  
+
+
+</div>
+
+</section>
+
+<!--packages -->
+
+  
+  <div id="package">
+
+     <div class="heading">
+      <h4>Popular Package</h4>
+      <h1>Checkout Our Packages</h1>
+     </div>
+
+     <div id="about"data-aos="fade-up" data-aos-duration="1500">
+      
+    <div class="package-list">
+
+    
+
+    <div class="section">
+     
+      <div class="img-package">
+        <img src="images/package1.jpg" alt="Cinque Terre" width="600" height="400">
+        <div class="overlay-package">
+          <p> <i class="fa-regular fa-clock"></i>  7D / 6N | <i class="fa-solid fa-users"></i>  5 Person </p>
+         </div>
+        </div>
+
+      <div class="desc">
+       
+        <div class="desc1">
+
+         <h2>London - The Swinging City</h2>
+         <i class="fa-solid fa-star checked"></i>
+         <i class="fa-solid fa-star checked"></i>
+         <i class="fa-solid fa-star checked"></i>
+         <i class="fa-solid fa-star checked"></i>
+         <i class="fa-solid fa-star checked"></i>
+         
+        
+        </div>
+
+        <div class="desc2">
+
+         <h1>$1,900<span>/per person</span></h1>
+         <button><a href="booking.html" >Book Now</a></button>
+        </div>
+
+      </div>
+
+    </div>
+    
+    <div class="section">
+      
+      <div class="img-package">
+        <img src="images/package2.jpg" alt="Forest" width="600" height="400">
+        <div class="overlay-package">
+          <p> <i class="fa-regular fa-clock"></i>  4D / 3N | <i class="fa-solid fa-users"></i>  7 Person </p>
+         </div>
+        </div>
+        
+      <div class="desc">
+       
+        <div class="desc1">
+
+        <h2>Manali - Gateway to Ladakh</h2>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star"></i>
+        
+       
+      </div>
+
+      <div class="desc2">
+
+        <h1>$950<span>/per person</span></h1>
+        <button>Book Now</button>
+
+      </div>
+
+      </div>
+    </div>
+    
+    <div class="section">
+  
+      <div class="img-package">
+         <img src="images/pp.jpg" alt="Northern Lights" width="600" height="400">
+         <div class="overlay-package">
+          <p> <i class="fa-regular fa-clock"></i>  6D / 5N | <i class="fa-solid fa-users"></i>  4 Person </p>
+         </div>
+       </div>
+
+      <div class="desc">
+         
+        <div class="desc1">
+
+        <h2>Maldives</h2>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star-half-stroke checked"></i>
+
+      </div>
+      
+      <div class="desc2">
+
+        <h1>$1,000<span>/per person</span></h1>
+        <button>Book Now</button>
+
+      </div>
+
+      </div>
+
+     </div>
+
+     <div class="section">
+     
+      <div class="img-package">
+        <img src="images/package4.jpg" alt="Cinque Terre" width="600" height="400">
+        <div class="overlay-package">
+          <p> <i class="fa-regular fa-clock"></i>  7D / 6N | <i class="fa-solid fa-users"></i>  5 Person </p>
+         </div>
+        </div>
+
+      <div class="desc">
+       
+        <div class="desc1">
+
+         <h2>Australia</h2>
+         <i class="fa-solid fa-star checked"></i>
+         <i class="fa-solid fa-star checked"></i>
+         <i class="fa-solid fa-star checked"></i>
+         <i class="fa-solid fa-star checked"></i>
+         <i class="fa-solid fa-star checked"></i>
+         
+        
+        </div>
+
+        <div class="desc2">
+
+         <h1>$1,300<span>/per person</span></h1>
+         <button>Book Now</button>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="section">
+     
+      <div class="img-package">
+        <img src="images/package5.jpg" alt="Cinque Terre" width="600" height="400">
+        <div class="overlay-package">
+          <p> <i class="fa-regular fa-clock"></i>  7D / 6N | <i class="fa-solid fa-users"></i>  5 Person </p>
+         </div>
+        </div>
+
+      <div class="desc">
+       
+        <div class="desc1">
+
+         <h2>Bali</h2>
+         <i class="fa-solid fa-star checked"></i>
+         <i class="fa-solid fa-star checked"></i>
+         <i class="fa-solid fa-star checked"></i>
+         <i class="fa-solid fa-star checked"></i>
+         <i class="fa-solid fa-star "></i>
+         
+        
+        </div>
+
+        <div class="desc2">
+
+         <h1>$1,000<span>/per person</span></h1>
+         <button>Book Now</button>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="section">
+     
+      <div class="img-package">
+        <img src="images/package6.jpg" alt="Cinque Terre" width="600" height="400">
+        <div class="overlay-package">
+          <p> <i class="fa-regular fa-clock"></i>  7D / 6N | <i class="fa-solid fa-users"></i>  5 Person </p>
+         </div>
+        </div>
+
+      <div class="desc">
+       
+        <div class="desc1">
+
+         <h2>Turkey</h2>
+         <i class="fa-solid fa-star checked"></i>
+         <i class="fa-solid fa-star checked"></i>
+         <i class="fa-solid fa-star checked"></i>
+         <i class="fa-solid fa-star checked"></i>
+         <i class="fa-solid fa-star checked"></i>
+         
+        
+        </div>
+
+        <div class="desc2">
+
+         <h1>$1,100<span>/per person</span></h1>
+         <button>Book Now</button>
+        </div>
+
+      </div>
+
+    </div>
+
+   </div>
+   </div>
+
+  </div> 
+
+  <!-- activities -->
+
+   <div id="activities">
+    
+    <div class="title-act ">
+      <h1>Our  Activities</h1>
+    </div>
+
+    <div class="adventures">
+     
+      <div class="adv">
+      <img src="images/ad1.jpg" alt="">
+      <h3>CAMPING</h3>
+      </div>
+
+      <div class="adv">
+        <img src="images/add3.avif" alt="">
+        <h3>HIKING</h3>
+      </div>
+
+      <div class="adv">
+      <img src="images/ad2.webp" alt="">
+      <h3>SCUBA DIVING</h3>
+     </div>
+
+  
+    <div class="adv">
+      <img src="images/ad44.png" alt="">
+      <h3>PARAGLIDING</h3>
+    </div>
+
+    </div>
+
+   </div>
+
+    <!-- special deals -->
+
+  <section id="spcl_deal">
+
+    
+
+  </section>
+
+   <!-- highlights -->
+   
+   <div class="benefits">
+
+    <div class="h-benefit">
+    <h1>What services do we provide for you?</h1>
+     </div>
+  
+    <div class="row">
+      
+        <div class="benefit">
+
+          <div class="icon-b">
+            <i class="fa-solid fa-mountain-sun"></i>
+          </div>
+
+          
+            <h3>New Destination</h3>
+            <p>Explore the allure of 'New Destinations' with us, where each itinerary unfolds in unexplored realms and undiscovered beauty. </p>
+          
+          </div>
+
+          <div class="benefit">
+
+            <div class="icon-b">
+              <i class="fa-solid fa-star-of-life"></i>
+            </div>
+
+           
+              <h3>Safe Adventure</h3>
+              <p>Experience the thrill of adventure with our 'Safe Adventure' services, where excitement meets assurance. We prioritize your safety, ensuring every  planning  secure journey.</p>
+           
+          </div>
+
+          <div class="benefit">
+
+            <div class="icon-b">
+              <i class="fa-solid fa-user-secret"></i>
+            </div>
+
+            
+              <h3>24h Guidance</h3>
+              <p>Count on our '24h Guidance' commitment for round-the-clock support, providing  as our dedicated team is ready to assist you at any hour .</p>
+            
+          </div>
+
+          <div class="benefit">
+
+            <div class="icon-b">
+              <i class="fa-regular fa-calendar-days"></i>
+            </div>
+
+            
+              <h3>Flexible Date</h3>
+              <p>Embrace flexibility with our 'Flexible Date' options, allowing you to tailor your travel plans to suit your schedule.choose dates that best accommodate your lifestyle.</p>
+            
+          </div>
+
+          <div class="benefit">
+
+            <div class="icon-b">
+              <i class="fa-solid fa-hotel"></i>
+            </div>
+
+            
+              <h3>Hotel Reservation</h3>
+              <p>Secure your stay effortlessly with our hassle-free 'Hotel Reservation' services. From boutique accommodations  with comfort and convenience for a memorable stay.</p>
+            
+          </div>
+
+          <div class="benefit">
+
+            <div class="icon-b">
+              <i class="fa-solid fa-plane"></i>
+            </div>
+
+            
+              <h3>Travel Insurance</h3>
+              <p>Safeguard your journeys with our comprehensive 'Travel Insurance' coverage. We offer peace of mind by protecting you against unforeseen events.</p>
+          
+          </div>
+
+          <div class="benefit">
+
+            <div class="icon-b">
+              <i class="fa-solid fa-car"></i>
+            </div>
+
+            
+              <h3>Vehicle Services</h3>
+              <p>Experience convenience on wheels with our reliable 'Vehicle Services.' From seamless airport transfers to personalized transportation solutions.</p>
+           
+          </div>
+
+          <div class="benefit">
+
+            <div class="icon-b">
+              <i class="fa-solid fa-users"></i>
+            </div>
+
+           
+              <h3>Management</h3>
+              <p>Efficient and seamless, our 'Management' services are dedicated to orchestrating the intricacies of your travel experience.</p>
+          
+          </div>
+
+        </div>
+
+    </div>
+
+
+  </div>
+   
+   <!-- gallery -->
+
+   <div class="photos">
+
+    <div class="title-gallery">
+      <h4>Our Gallery</h4>
+      <h1>Best Traveler Share A photo</h1>
+    </div>
+
+    <div class="pics">
+      
+      <img src="images/img2.avif" alt="" height="300px" width="35%">
+      <img src="images/img1.jpg" alt="" height="300px" width="15%" >
+      <img src="images/img3.avif" alt="" height="300px" width="15%">
+      <img src="images/img5.jpg" alt="" height="300px" width="15%"><br>
+      <img src="images/img4.avif" alt="" height="300px" width="15%">
+      <img src="images/img6.avif" alt="" height="300px" width="15%">
+      <img src="images/img7.jpg" alt="" height="300px" width="15%">
+      <img src="images/img8.avif" alt="" height="300px" width="35%">
+      
+    
+    </div>
+  </div>
+
+  
+  <!-- book a trip -->
+
+<section id="contact">
+
+  <h1 id="c-title">Contact For Any Query</h1>
+
+     <div class="book">
+
+    
+      <div class="contact-us">
+
+         <div class="location">
+          <h1><i class="fa-solid fa-location-dot"></i>Address<h1>
+            <p class="p">Cochin Edappally,Ernakulam</p>
+         </div>
+
+         <div class="location">
+          <h1><i class="fa-solid fa-envelope"></i>Email-id</h1>
+          <p>tourly@gmail.com</p>
+         </div>
+
+         <div class="location">
+          <h1><i class="fa-solid fa-phone-volume"></i>Phone</h1>
+          <p>+0484 2461273</p>
+         </div>
+
+         <div class="location">
+          <h1><i class="fa-solid fa-rotate-right"></i>Follow Us</h1>
+          <div class="s-icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+         </div>
+
+      </div>
+
+    
+
+      <div class="contact-form">
+        <h1>Contact Us</h1>
+        <form>
+          <input type="text" placeholder=" Your Name">
+          <input type="text" placeholder=" Your Email">
+          <input type="text" placeholder=" Subject">
+          <input type="text" placeholder=" Message" id="spcl-rqst">
+          <button>Submit</button>
+        </form>
+      </div>
+     </div>
+  </section> 
+
+
+
+
+  <!-- footer -->
+
+  <footer>
+
+    <div class="footer-content">
+
+     <div class="footer-about">
+
+      <div class="footer-head">
+      <img src="images/logo.png" alt="logo image">
+      <h2 class="logoname">Tourly</h2>
+    </div>
+      <p>Welcome to Tourly, where every journey is an invitation to explore, dream, and create lasting memories. At the heart of our mission is a commitment to empower your wanderlust with curated travel experiences that transcend the ordinary.</p>
+
+      <div class="location">
+        <h1><i class="fa-solid fa-rotate-right"></i>Follow Us</h1>
+        <div class="s-icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+       </div>
+
+     </div>
+
+     <div class="tour-types">
+     
+      <h2>Tour Types</h2>
+
+      <ul>
+        <li>Adventure Tours</li>
+        <li>Group Tours</li>
+        <li>Seasonal Tours</li>
+        <li>Family Tours</li>
+    
+      </ul>
+
+     </div>
+
+     <div class="contact-info">
+
+      <div class="details-contact">
+        <i class="fa-solid fa-phone-volume"></i>
+        <p class="p1">88130-589-745-6987</p>
+        <p>+0484 2461273</p>
+      </div>
+
+      <div class="details-contact">
+        <i class="fa-solid fa-clock"></i>
+        <p class="p1">Mon-Fri 09:00 AM-06:00 PM</p>
+        <p>(except public holidays)</p>
+      </div>
+
+      <div class="details-contact"></div>
+      <i class="fa-solid fa-location-dot" font></i>
+      <p class="p1">Cochin,Edappally</p>
+      <p>Ernakulam</p>
+     </div>
+
+     <div class="footer-gallery">
+        
+      <h3>Gallery</h3>
+      <div class="footer-images">
+        <img src="images/img2.avif" alt="" >
+        <img src="images/img8.avif" alt="">
+        <img src="images/package1.jpg" alt="">
+        <img src="images/package2.jpg" alt="">
+        <img src="images/package3.jpg" alt="">
+        <img src="images/imgg.jpg" alt="">
+      </div>
+     </div>
+
+    </div>
+
+  </footer>
+
+</div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+</body>
+
+
+</html>
+

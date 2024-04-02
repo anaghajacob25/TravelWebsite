@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('https://img.freepik.com/free-photo/young-woman-hiker-taking-photo-with-smartphone-mountains-peak-winter_335224-427.jpg?t=st=1712032312~exp=1712035912~hmac=3b210674273820eb6b5b3916f9ae162dd91089a4d4f1fed00a89823821386ef8&w=996');
+    background-size: cover;
+}
+
+.main-text h1{
+    font-size: 32px;
+    color: rgb(220, 169, 92);
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    color: rgb(192, 177, 179);
+}
+
+hr{
+    width: 10%;
+    margin-left: 690px;
+    height: 2px;
+    background-color: rgb(200, 137, 137);
+}
+
+.row{
+  display: grid;
+  grid-template-columns: repeat(2,200px);
+}
+
+
+
+.contact-form{
+    margin-top: 40px;
+   border: 1px solid lightgrey;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.511);
+    width: 450px;
+    margin-left: 520px;
+    height: 480px;
+    padding: 20px;
+  
+  }
+  
+  .contact-form h1{
+     font-size: 24px;
+     text-align: center;
+    
+  }
+  
+
+  .contact-form form{
+    margin-top: 40px;
+    width: 90%;
+    margin-left: 30px;
+  }
+  
+  .contact-form form input{
+     height: 35px;
+     width: 87%;
+     margin-bottom: 10px;
+     border: 1px solid #dbdbdb;
+    outline: none; 
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+  }
+  
+  .contact-form form input::placeholder{
+    color: rgb(211, 207, 207);
+    margin-left: 20px;
+  }
+  
+  #spcl-rqst{
+    height: 70px;
+    width: 87%;
+  }
+  
+  .contact-form button{
+    width: 100px;
+    height: 35px;
+    font-size: 12px;
+    font-weight: 550;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    margin-left: 130px;
+  }
+  
+  .contact-form button a{
+    text-decoration: none;
+  }
+  
+  .contact-form  button:hover{
+    background-color: rgb(240, 196, 196);
+    color: black;
+  }
+
+  
